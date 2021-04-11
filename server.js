@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 
-import User from './models/user.js';
+import User from './models/User.js';
 
 // App Config
 const app = express();
