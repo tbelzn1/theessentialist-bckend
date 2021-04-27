@@ -26,6 +26,7 @@ app.post('/user', (req, res) => {
     const newUser = new User({
         fname: req.body.fname,
         lname: req.body.lname,
+        email: req.body.email,
         password: req.body.password
     });
     //console.log(req.body);
